@@ -1,0 +1,12 @@
+const String kTokenKey = 'token';
+const String kDoctorNameKey = 'name';
+const String kDoctorEmailKey = 'email';
+const String kDoctorIDKey = 'id';
+const String kDoctorNRCKey = 'nrc';
+const String kDoctorSpecialtyKey = 'specialty';
+const String kDoctorQualificationKey = 'qualification';
+const String kPatientIdKey = 'patientId';
+const String kCurrentHospitalID = 'hospitalId';
+const String kDoctorPhoneKey = 'phone';
+const String kDateKey = 'date';
+const String kHospitalNameKey = 'hospitalName';

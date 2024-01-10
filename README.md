@@ -1,6 +1,6 @@
 # clinica_doctor
 
-A centralised medical record system📃(Doctor App)
+A centralised medical record system📃(Doctor's App)
 
 Applications where doctors and patients will operate in two different applications which are connected 💯
 Patients will be able to carry just an application everytime they go to hospitals which have been integrated to the system, that is, patients will have all their lifetime medical records from all the hospitals in just their one stop application 📱

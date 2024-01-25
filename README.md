@@ -15,7 +15,7 @@ In Interaction with patients, doctors will scan the QR of the patients and will 
 Doctors will have their own profile and will be able to view the records by date and date picker which they made under the current hospital during the assigned period✔️
 
  - the project is implemented with two apps of patients and doctors and a website for the hospital dashboard and all are connected to a database system.
- - Patients ans doctor login system is implemented with token. That is, both users will be sign up by the hospital from the dashboards and will have to login from their respective devices. Once they are authenticated, they will recive an auth token from backend and will be stored in local device storage and the token will be lost only if they logout from the account.
+ - Patients ans doctor login system is implemented with JWT token. That is, both users will be sign up by the hospital from the dashboards and will have to login from their respective devices. Once they are authenticated, they will recive an JWT token from backend and will be stored in local device storage and the token will be lost only if they logout from the account. Then, for any actions of the user perfrom within the system, these stored JWT tokens will be added as the authorization to API to interact with backend.
  - The project is connected with the MongoDB database and binded with the custom API from the backend backend developer from the team. Both "Post" and "Get" methods are used in binding the API💯
  - Login credentials are posted to backend and get the token back for authentication
  - On creating a new medical record, the record is encoded to json formate and send to backend to store in database💾
